@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EDDFB3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Secular One', sans-serif;
+    color: #CA955C;
+    text-align: center;
+}
+
+body > h1 {
+    position: absolute;
+    top: 4rem;
+    color: #876445;
+}
+
+img {
+    max-width: 270px;
+}
+
+.results-container {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 220px;
+    border: 5px solid #5C3D2E;
+    margin: 2rem;
+    background-color: #A27B5C;
+    color: aliceblue;
+}
+
+.user-choice-container {
+    margin-top: 1.5rem;
+}
+
+.who-won-container {
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 4rem;
+    font-size: 1.5rem;
+}
+
+.computer-result-container h1 {
+    margin-bottom: 2.5rem;
+}
+
+.user-result-container h1 {
+    margin-bottom: 2.5rem;
+}
+
+button {
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    font-family: 'Secular One', sans-serif;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    background-color: #CA955C;
+    color: white;
+    cursor: pointer;
+}

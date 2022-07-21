@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rock Paper Scissors</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/6c409f6053.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>Game of Rock-Paper-Scissors</h1>
+        <div class="results-container">
+
+            <div class="computer-result-container">
+                <h1>Computer</h1>
+                <h2><span id="computer-choice"></span></h2>
+            </div>
+
+            <div class="user-result-container">
+                <h1>You</h1>
+                <h2><span id="user-choice"></span></h2>
+            </div>
+
+            <div class="who-won-container">
+                <h2><span id="result"></span></h2>
+            </div>
+
+        </div>
+
+        <div class="user-choice-container">
+            <button id="rock"> rock</button>
+            <button id="paper"> paper</button>
+            <button id="scissors"> scissors</button>
+        </div>
+
+        <script src="app.js" async defer></script>
+    </body>
+</html>
